@@ -1,0 +1,7 @@
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\Site.exe
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\Site.dll
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\Site.deps.json
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\Site.runtimeconfig.json
+C:\Users\Appy\source\repos\Site\Site\obj\Release\net8.0\PubTmp\Out\Site.pdb

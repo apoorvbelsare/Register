@@ -1,0 +1,45 @@
+﻿@page
+@model Site.Pages.Register
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Register";
+}
+<h1>@ViewData["Title"]</h1>
+<h2>Registration Form</h2>
+
+<form method="post">
+    <div>
+        <label>First Name</label>
+        <input asp-for="User.FirstName" />
+        <span asp-validation-for="User.FirstName" style="color:red"></span>
+    </div>
+
+    <div>
+        <label>Last Name</label>
+        <input asp-for="User.LastName" />
+        <span asp-validation-for="User.LastName" style="color:red"></span>
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="User.Email" />
+        <span asp-validation-for="User.Email" style="color:red"></span>
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input type="password" asp-for="User.Password" />
+        <span asp-validation-for="User.Password" style="color:red"></span>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <p style="color:green">@Model.Message</p>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
